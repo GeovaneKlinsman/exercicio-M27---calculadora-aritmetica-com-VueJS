@@ -55,12 +55,7 @@ const getCalculo = () => {
 <template>
   <div class="container">
     <Cabecalho />
-    <Calculadora 
-      :get-Number-1="getValor1"
-      :get-Number-2="getValor2"
-      :resultado="estado.resultado"
-      :get-Operador="getOperador"
-    />
+    <Calculadora :get-valor1="getValor1" :get-valor2="getValor2" :resultado="estado.resultado" :get-calculo="getOperador"/>
     <Rodape />
   </div>
 </template>

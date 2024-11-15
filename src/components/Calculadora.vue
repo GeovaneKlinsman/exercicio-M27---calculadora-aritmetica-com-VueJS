@@ -1,5 +1,5 @@
 <script setup>
-    const props = defineProps(["getNumber1", "getNumber2", "getOperador", "resultado"]);
+    const props = defineProps(["getValor1", "getValor2", "getCalculo", "resultado"]);
 </script>
 
 <template>
@@ -12,7 +12,7 @@
             <p>
                 Este site foi desenvolvido para ajudar você a realizar cálculos rápidos e precisos. Para começar, por favor, insira o primeiro valor que deseja utilizar na operação aritmética.
             </p>
-            <input required type="number" placeholder="0" class="form-control mb-4" @keyup="props.getNumber1"/>
+            <input required type="number" placeholder="0" class="form-control mb-4" @keyup="props.getValor1"/>
         </div>
     </div>
 
@@ -22,7 +22,7 @@
             <p>
                 Agora que você já inseriu o primeiro valor, é hora de escolher qual operação deseja realizar. Você pode optar por soma, subtração, multiplicação ou divisão. Selecione a operação desejada para prosseguir.
             </p>
-            <select class="form-control text-center" @change="props.getOperador">
+            <select class="form-control text-center" @change="props.getCalculo">
                 <option class="subtrair text-center" value="subtrair">-</option>
                 <option class="somar text-center" selected value="somar">+</option>
                 <option class="dividir text-center" value="dividir">÷</option>
@@ -43,7 +43,7 @@
             <p>
                 Agora, insira o segundo valor para completar a operação. Assim que o valor for inserido, o cálculo será realizado automaticamente e o resultado será exibido para você. Faça sua escolha e descubra o resultado!
             </p>
-            <input required type="number" placeholder="0" class="form-control mb-4" @keyup="props.getNumber2"/>
+            <input required type="number" placeholder="0" class="form-control mb-4" @keyup="props.getValor2"/>
             <div class="col text-center">
             <h3>Resultado:</h3>
             </div>
