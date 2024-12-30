@@ -3,12 +3,12 @@
         <div class="nos-acompanhe">
             <ul class="social-links">
                 <li>
-                    <a href="https://www.instagram.com/andre.soares.designer/" title="Siga-nos no Instagram">
+                    <a href="https://www.instagram.com/klinsmangondim/" title="Siga-nos no Instagram">
                         <img src="/src/images/instagram-icon.png" alt="Logo do Instagram" />
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/AndreDG88" title="Siga-nos no GitHub">
+                    <a href="https://github.com/GeovaneKlinsman" title="Siga-nos no GitHub">
                         <img src="/src/images/github-icon.png" alt="Logo do GitHub" />
                     </a>
                 </li>
@@ -20,7 +20,7 @@
         <div>
             <p>
                 &copy; Vamos Calcular um pouco? - Todos os direitos reservados - 2024.
-                Desenvolvido por André Soares
+                Desenvolvido por Klinsman Gondim
             </p>
         </div>
     </footer>
